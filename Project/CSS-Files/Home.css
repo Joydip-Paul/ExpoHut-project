@@ -112,14 +112,14 @@ header ul li a:hover{
       text-align: center;
       overflow: auto;
       transition: 1s;
-      background: var(--Footer-Background);
+      background: var(--Theme-Color);
       flex-direction: column;
       opacity: 0;
       transform: translateY(-100%);
   }
   header.active ul{
       opacity: 1;
-      top: 80px;
+      top: 66px;
       transform: translateY(0);
   }
   header ul li a{
@@ -192,6 +192,7 @@ header ul li a:hover{
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 120px 0;
 }
 .Banner-Left
 {
