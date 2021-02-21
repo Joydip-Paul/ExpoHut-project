@@ -1,103 +1,104 @@
-:root
-{
+:root {
   /* --Theme-Color: #17b978; */
   /* --Icon-Color: #17b978; */
-  --Theme-Color: #005F37;
-  --Icon-Color-Two: #005F37;
+  --Theme-Color: #005f37;
+  --Icon-Color-Two: #005f37;
   --Primary-color: #f4f7fa;
   --Second-Primary-Color: #d1d1d1;
-  --Full-White: #FFFFFF;
-  --Footer-Background:  #2a363b;
+  --Full-White: #ffffff;
+  --Footer-Background: #2a363b;
   --Title-Font-Color: #333;
   --Title-Font-Colot-Two: #181810;
   --Subtitle-Font-Color: #333333;
   --Subtitle-Color: #ececec;
 }
-.mrit{
-    padding: 100px 0px;
+.mrit {
+  padding: 100px 0px;
 }
-.MritShilpo-title{
-    text-align: center;
+.MritShilpo-title {
+  text-align: center;
 }
-.MritShilpo-title h1{
-    margin-bottom: 1rem;
-    color: var(--Theme-Color);
-    font-size: 30px;
+.MritShilpo-title h1 {
+  margin-bottom: 1rem;
+  color: var(--Theme-Color);
+  font-size: 30px;
 }
-.MritShilpo-title p{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.MritShilpo-title p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 /* Carousel */
 .carousel-cell {
-    width: 100%;
-    height: 300px;
+  width: 100%;
+  height: 300px;
 }
-    /* cell number */
+/* cell number */
 .carousel-cell:before {
-      display: block;
+  display: block;
 }
-.TopPost{
-    text-align: left;
-    background-color: var(--Theme-Color);
-    padding: 10px;
-    width: 5rem;
-    color: var(--Full-White);
+.TopPost {
+  text-align: center;
+  background-color: var(--Theme-Color);
+  padding: 10px;
+  width: 8rem;
+  color: var(--Full-White);
 }
-.UserPost{
-    padding: 20px 0px;
-    display: flex;
-    background-color: #f1f1f1;
-    padding: 2rem;
-    margin-bottom: 2rem;
+.UserPost {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  padding: 20px 16px;
+  margin-bottom: 2rem;
 }
-.UserPost:hover{
-    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.349);
-    cursor: pointer;
+.UserPost:hover {
+  box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.349);
+  cursor: pointer;
 }
-.LeftImg img{
-    width: 28rem;
-    height: 16rem;
+.LeftImg {
+  flex-basis: 45%;
 }
-.RightDecription{
-    margin-left: 5rem;
+.LeftImg img {
+  width: 100%;
 }
-.RightDecription p{
-    font-size: 15px;
-    margin-top: 10px;
+.RightDecription {
+  flex-basis: 50%;
 }
-.price{
-    color: var(--Theme-Color2);
-    font-size: 20px;
-    font-weight: bold;
+.RightDecription p {
+  font-size: 15px;
+  margin-top: 10px;
 }
-.ButtonRating{
-    display: flex;
+.price {
+  color: var(--Theme-Color2);
+  font-size: 20px;
+  font-weight: bold;
 }
-.RightDecription button{
-    text-decoration: none;
-    background: var(--Theme-Color);
-    color: var(--Full-White);
-    padding: 10px 20px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    width: 200px;
-    text-align: center;
-    margin-top: 15px;
+.ButtonRating {
+  display: flex;
 }
-.RightDecription button:hover{
-    background: #004126;
+.RightDecription button {
+  text-decoration: none;
+  background: var(--Theme-Color);
+  color: var(--Full-White);
+  padding: 10px 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
 }
-.rating{
-    margin-top: 2rem;
-    margin-left: 12rem;
+.RightDecription button:hover {
+  background: #004126;
 }
-i{
-    cursor: pointer;
-    font-size: 20px;
+.rating {
+  margin-top: 2rem;
+  margin-left: 12rem;
+}
+i {
+  cursor: pointer;
+  font-size: 20px;
 }
 .checked {
-    color: orange;
-  }
+  color: orange;
+}
